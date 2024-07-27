@@ -1,0 +1,21 @@
+POST http://localhost:3050/auth/signup HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "pen@gmail.com",
+    "password": "Aloha@)!(#@*57123"
+}
+###
+GET http://localhost:3050/auth/14
+###
+GET http://localhost:3050/auth?email=pen@gmail.com
+
+###
+PATCH http://localhost:3050/auth/2
+Content-Type: application/json
+
+{
+    "email": "ahd1223123@gmail.com"
+}
+###
+DELETE  http://localhost:3050/auth/17
