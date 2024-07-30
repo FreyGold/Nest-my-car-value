@@ -6,7 +6,7 @@ Content-Type: application/json
     "password": "Aloha@)!(#@*57123"
 }
 ###
-GET http://localhost:3050/auth/14
+GET http://localhost:3050/auth/20
 ###
 GET http://localhost:3050/auth?email=pen@gmail.com
 
@@ -18,4 +18,4 @@ Content-Type: application/json
     "email": "ahd1223123@gmail.com"
 }
 ###
-DELETE  http://localhost:3050/auth/17
+DELETE  http://localhost:3050/auth/17   
